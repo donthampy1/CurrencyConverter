@@ -17,7 +17,7 @@ function Currencyinput({CurrencyOptions,selectedCurrency,onChangeCurrency,Amount
     onChange={onChangeCurrency}
     >
       {CurrencyOptions.map(option => (
-        <option  className='rounded-lg  bg-red-600'
+        <option  className='rounded-lg  bg-blue-100'
         key={option} 
         value={option}>
          {option}
