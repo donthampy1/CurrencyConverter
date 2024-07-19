@@ -109,6 +109,7 @@ if (updated == true) {
     <>
     <div className=' w-50  max-w-md  mx-auto shadow-2xl p-4 text-center flex-grow bg-slate-100'>
       <h1 className='text-2xl rounded-xl text-black-600 text-center shadow-2xl m-3 bg-slate-200 p-3'>Currency Converter</h1>
+      <div className='p-4 shadow-2xl rounded-xl'>
       <Currencyinput
       CurrencyOptions={CurrencyOptions}
       selectedCurrency={fromCurrency}
@@ -147,7 +148,9 @@ if (updated == true) {
       
       }}
       
+      
       />
+      </div>
       </div>
       
     </>

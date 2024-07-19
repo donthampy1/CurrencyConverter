@@ -2,7 +2,7 @@ import React from 'react'
 
 function Currencyinput({CurrencyOptions,selectedCurrency,onChangeCurrency,Amount,onChangeAmount}) {
   return (
-   <div className='p-4 shadow-2xl rounded-xl '>
+   <div >
 
     <input 
     type='number' 
